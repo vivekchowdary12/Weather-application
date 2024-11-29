@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://i.ibb.co/qNv7NxZ/pc.webp);
+    background-size: cover;
+}
+
+.container{
+    width:1200px;
+    height: 500px;
+    margin: 15px 40px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+}
+.input{
+    width: 25%;
+    background-color:#d7dadd;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+.output{
+    /* width: 70%; */
+    background-color: white;
+}
+.input_search{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    top: 30px;
+    left: 20px;
+    border: 1px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.input_button{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    background-color: #5498fd;
+    position: absolute;
+    top: 30px;
+    left: 219px;
+}
+.input_image{
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    left: 40px;
+    top: 80px;
+}
+.input_temprature_values1{
+    font-size: xxx-large;
+    position: absolute;
+    top: 270px;
+    left: 34px
+}
+.input_temprature_values2{
+    font-size: large;
+    position: absolute;
+    top: 328px;
+    left: 34px
+}
